@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="App.css">
+</head>
+<body>
+  <div id="header">
+    <div id="center">
+        <div id="Nav">
+            <div id="logotip">
+                <img src="../img/logo.svg" alt="logotip" id="logotip_img">
+            </div>
+            <div id="Nav_Text">
+                <ul>
+                    <li><a href="">collections</a></li>
+                    <li><a href="">men</a></li>
+                    <li><a href="">woman</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div id="korzina">
+                
+               <div id="btn"><span  id="default_num">0</span></div> 
+               <img src="../img/image.jpg" alt="" style=" margin:40px 0 0 0; width:40px; height:40px; border-radius:50%; position:absolute ; right:0px">
+            </div>
+        </div>
+        <div class="Korzinka_a">
+            <img src="../img/icon-cart.svg" alt="" id="image_korzinka">
+        </div>
+        <div id="Card">
+            <div id="images">
+
+                <div id="img_center">
+                    <img src="../img/1img.jpg" alt="" style="width: 100%;">
+                </div>
+                <div id="small_img">
+                    <img src="../img/1img.jpg" alt="" class="img_br" id="img_br1" ><img src="../img/2img.jpg" alt="" class="img_br " id="img_br2"><img src="../img/3img.jpg" alt="" class="img_br" id="img_br3"><img src="../img/4img.jpg" alt="" class="img_br" id="img_br4">
+                </div>
+
+            </div>
+            <div id="text_btn">
+                <div class="small_text">
+                    <h3 style="color: rgb(255, 125, 26);">SNEAKER COMPANY</h3>
+                </div>
+                <div class="large_text">
+                    <h1 style="font-size: 50px;">Fall Limited Edition Sneakers</h1>
+                </div>
+                <div class="paragraf_text">
+                    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                </div>
+                <div class="korzina_mon">
+                    <div style="width: 30%; height:7vh;  display:flex; margin-top: 20px;">
+                        <h1 style="padding-top: 10px;" id="narx">$125.00  </h1> 
+                        <h4 style=" width: 50px; height: 30px; color: rgb(255, 125, 26);text-align: center; background-color: rgb(255, 237, 224); border-radius: 10px;">50%</h4>
+                    </div>
+                   
+                    <h3 ><del style="padding:90px 0 0 5px ; color:rgb(182, 188, 200)">$250.00</del></h3>
+                </div>
+                <div class="button_s" style="display: flex;">
+                    <div id="plus_minus" style="display: flex; justify-content: center; align-items: center; width: 150px; height: 30px; margin: 30px 0 0 30px; text-align: center; background-color: azure;">
+                        <span style="text-align: center; font-size:20px" ><button style="border: none; width: 50px; color: rgb(255,125,26); font-size: 20px;" id="minus" >-</button></span>
+                        <span style=" text-align: center; font-size:20px" id="num">0</span>
+                        <span style="text-align: center; font-size:20px; color: rgb(255,125,26);"  ><button style="border: none; width: 50px; color: rgb(255,125,26) ; font-size: 20px;" id="plus">+</button></span>
+                    </div>
+                    <button id="Add_button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Js/App.js"></script>
+<script src="Js/Script.js"></script>
+</body>
+</html>
